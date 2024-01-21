@@ -1,10 +1,17 @@
-/*Vamos entender Variáveis
-Variáveis são "recipientes" onde podemos armazenar informações que podem variar, ou seja, podem ter qualquer tipo de valor.
+/*Vamos entender Operadores:
+-> Os operadores JavaScript são usados para atribuir valores, comparar valores, executar operações aritm[eticas e muito mais.
 
-No JavaScript temos 3 palavras-chaves para declarar variáveis:
--> var
--> let
--> const
+São os sinais que usamos: + - * / = ++ += -= && || etc...
+
+São separados em 6 "categorias":
+
+1) Operadores Aritméticos (matemáticos)
+2) Operadores de Atribuição
+3) Operadores de Sequência
+4) Operadores de Comparação
+5) Operador Condicional (Ternário)
+6) Operadores Lógicos
+
 */
 
 //Declaração de variáveis
