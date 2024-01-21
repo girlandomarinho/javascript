@@ -12,17 +12,12 @@ São separados em 6 "categorias":
 5) Operador Condicional (Ternário)
 6) Operadores Lógicos
 
+ == compara se o valor das variáveis posicionadas antes e depois do símbolo, são iguais, ele compara se são iguais, não os tipos.
+
+ === Ele retorna mais com mais perfeição, pois ele irá comparar também os tipos
 */
 
-//Declaração de variáveis
-var nome, sobrenome, nomeCompleto, idade;
-
-//Atribuição dos valores
-nome = "Girlando";
-sobrenome = "Marinho";
-idade = 18;
-nomeCompleto = nome+" "+sobrenome;
-
-pessoa = idade+nome;
-
-document.getElementById("texto").innerHTML=pessoa;
+var idade, eleitor;
+idade = 17;
+eleitor = (idade<18)? "Menor de idade": "Maior de idade";
+alert('A resposta é: '+ eleitor);
