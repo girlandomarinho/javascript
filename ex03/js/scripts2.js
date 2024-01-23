@@ -1,0 +1,1 @@
+console.log("Esse é o segundo script do body")
